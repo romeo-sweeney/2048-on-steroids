@@ -3,7 +3,7 @@ import Tile from "./Tile";
 import Cell from "./Cell";
 import { Board } from "../helper";
 import useEvent from "../hooks/useEvent.js";
-import GameOverlay from "./GameOverlay";
+import GameOverlay from "./GameOverlay.js";
 
 const BoardView = () => {
     const [board, setBoard] = useState(new Board());
