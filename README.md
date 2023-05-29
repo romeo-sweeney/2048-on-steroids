@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# 2048 Animated Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a README file for a 2048 Animated Application built using the npm package manager. The application can be run by executing the command `npm start`.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To install and run the application locally, please follow these steps:
 
-### `npm start`
+1. Ensure that you have Node.js and npm installed on your machine. You can download them from [https://nodejs.org/](https://nodejs.org/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Clone this repository to your local machine using the following command: ```git clone github.com/romeo-sweeney/animated-2048-app```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Navigate to the project directory: ```cd animated-2048-app```
 
-### `npm test`
+4. Install the project dependencies using npm: ```npm install```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+Once you have installed the dependencies, you can start the application by running the following command: ```npm start```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This command will start a development server and open the application in your default browser. If the browser doesn't open automatically, you can access the application by navigating to [http://localhost:3000](http://localhost:3000) in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How To Play
 
-### `npm run eject`
+In this captivating game, your objective is to continuously merge tiles with identical numbers, progressing towards the highly sought-after 2048 tile. Utilize the arrow keys (Up, Down, Left, Right) on your keyboard to maneuver the tiles across the game board.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+With every successful merge, the resulting tile will be the sum of the original two tiles, allowing you to strategize and plan your moves meticulously. Exercise your logic and foresight to achieve the ultimate goal of reaching the illustrious 2048 tile. 
