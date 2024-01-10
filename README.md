@@ -1,6 +1,6 @@
-# 2048 Animated Application
+# 2048 on Steroids
 
-This is a README file for a 2048 Animated Application built using the npm package manager. The application can be run by executing the command `npm start`.
+This is a README file for a 2048 on Steroids built using the npm package manager. The application can be run by executing the command `npm start`.
 
 ## Installation
 
