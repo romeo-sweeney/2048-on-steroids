@@ -9,7 +9,7 @@ const BoardView = () => {
     const [board, setBoard] = useState(new Board());
 
     const handleKeyDown = (event) => {
-      if (board.hasWon()) {
+      if (board.hasWon() || board.hasLost()) {
         return;
       }
   
@@ -36,10 +36,12 @@ const BoardView = () => {
         );
     });
 
+    const hasLost = board.hasLost();
+
     const tiles = board.tiles
         .filter((tile) => tile.value !== 0)
         .map((tile, index) => {
-            return <Tile tile={tile} key={index}/>;
+            return <Tile tile={tile} key={index} hasLost={hasLost}/>;
     });
 
     const resetGame = () => {
