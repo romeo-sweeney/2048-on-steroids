@@ -1,6 +1,6 @@
 import React from "react";
 
-const Tile = ({ tile, id }) => {
+const Tile = ({ tile, hasLost }) => {
   // 1. tile
   // 2. tile#
   // 3. position_#_#
@@ -25,6 +25,10 @@ const Tile = ({ tile, id }) => {
     classArray.push(`row_from_${tile.fromRow()}_to_${tile.toRow()}`);
     classArray.push(`column_from_${tile.fromColumn()}_to_${tile.toColumn()}`);
     classArray.push("isMoving");
+  }
+
+  if (hasLost) {
+    classArray.push("explode");
   }
 
   let classes = classArray.join(" ");
